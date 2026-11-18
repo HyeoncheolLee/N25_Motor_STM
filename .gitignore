@@ -1,0 +1,39 @@
+# ---------- STM32CubeIDE / Eclipse ----------
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+*.srec
+.metadata/
+.settings/language.settings.xml
+*.launch.bak
+RemoteSystemsTempFiles/
+
+# ---------- MPLAB X (N25 PIC32 원본) ----------
+**/nbproject/private/
+**/build/
+**/dist/
+**/debug/
+*.X/nbproject/private/
+
+# ---------- Editor / OS ----------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Local ----------
+*.local
+.env

@@ -1,0 +1,19 @@
+# 줄바꿈 정규화 (Windows/Linux/macOS 공동 작업)
+* text=auto
+
+*.c    text eol=lf
+*.h    text eol=lf
+*.md   text eol=lf
+*.ld   text eol=lf
+*.m    text eol=lf
+*.ioc  text eol=lf
+Makefile text eol=lf
+*.mk   text eol=lf
+
+# 바이너리
+*.pdf  binary
+*.PDF  binary
+*.png  binary
+*.jpg  binary
+*.elf  binary
+*.bin  binary
